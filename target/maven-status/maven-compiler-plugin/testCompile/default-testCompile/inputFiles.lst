@@ -1,0 +1,8 @@
+/Users/maxkayumov/IdeaProjects/Webstaurantstore/src/test/java/com/webStaurantStore/runners/CukesRunner.java
+/Users/maxkayumov/IdeaProjects/Webstaurantstore/src/test/java/com/webStaurantStore/step_definitions/SearchStepDefinitions.java
+/Users/maxkayumov/IdeaProjects/Webstaurantstore/src/test/java/com/webStaurantStore/step_definitions/Hooks.java
+/Users/maxkayumov/IdeaProjects/Webstaurantstore/src/test/java/com/webStaurantStore/pages/LandingPage.java
+/Users/maxkayumov/IdeaProjects/Webstaurantstore/src/test/java/com/webStaurantStore/utilities/Driver.java
+/Users/maxkayumov/IdeaProjects/Webstaurantstore/src/test/java/com/webStaurantStore/pages/SearchResultPage.java
+/Users/maxkayumov/IdeaProjects/Webstaurantstore/src/test/java/com/webStaurantStore/utilities/ConfigurationReader.java
+/Users/maxkayumov/IdeaProjects/Webstaurantstore/src/test/java/com/webStaurantStore/utilities/BrowserUtils.java

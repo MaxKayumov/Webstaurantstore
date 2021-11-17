@@ -1,0 +1,229 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-17T04:39:05.078Z",
+        "line": 7,
+        "name": "WebstaurantStore home page title verification",
+        "description": "",
+        "id": "search-functionality-validation;webstaurantstore-home-page-title-verification",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4347000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on WebStaurantStore landing page",
+            "match": {
+              "location": "com.webStaurantStore.step_definitions.SearchStepDefinitions.userIsOnWebStaurentStoreLandingPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should see title is \"WebstaurantStore: Restaurant Supplies \u0026 Foodservice Equipment\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"WebstaurantStore: Restaurant Supplies \u0026 Foodservice Equipment\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.webStaurantStore.step_definitions.SearchStepDefinitions.userShouldSeeTitleIs(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          },
+          {
+            "name": "@landingPage"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-17T04:39:09.551Z",
+        "line": 12,
+        "name": "Search results page title verification",
+        "description": "",
+        "id": "search-functionality-validation;search-results-page-title-verification",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1900000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User searches for \"stainless work table\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"stainless work table\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.webStaurantStore.step_definitions.SearchStepDefinitions.userSearchesFor(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3029000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should see \"Stainless Work Table - WebstaurantStore\" as result page\u0027s title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Stainless Work Table - WebstaurantStore\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.webStaurantStore.step_definitions.SearchStepDefinitions.userShouldSeeAsResultSPageTitle(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          },
+          {
+            "name": "@resultPageTitle"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-17T04:39:14.487Z",
+        "line": 17,
+        "name": "Search results verification",
+        "description": "",
+        "id": "search-functionality-validation;search-results-verification",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18359000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should see \"Table\" in every search result\u0027s title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Table\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.webStaurantStore.step_definitions.SearchStepDefinitions.user_should_see_in_every_search_result_s_title(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          },
+          {
+            "name": "@searchResult"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-17T04:39:32.852Z",
+        "line": 21,
+        "name": "Adding item from search result to cart and deletion",
+        "description": "",
+        "id": "search-functionality-validation;adding-item-from-search-result-to-cart-and-deletion",
+        "after": [
+          {
+            "result": {
+              "duration": 304000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.webStaurantStore.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 267000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User adds last item from search result to the Cart",
+            "match": {
+              "location": "com.webStaurantStore.step_definitions.SearchStepDefinitions.user_adds_last_item_from_search_result_to_the_cart()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2264000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User clicks View in popup",
+            "match": {
+              "location": "com.webStaurantStore.step_definitions.SearchStepDefinitions.userClicksViewInPopup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2048000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User empties Cart",
+            "match": {
+              "location": "com.webStaurantStore.step_definitions.SearchStepDefinitions.user_empties_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          },
+          {
+            "name": "@Cart"
+          }
+        ]
+      }
+    ],
+    "name": "Search functionality validation",
+    "description": "    Agile Story: As a user, when I am on the main search page,\n      I should be able to search whatever I want, and see relevant information",
+    "id": "search-functionality-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/uiSearch.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

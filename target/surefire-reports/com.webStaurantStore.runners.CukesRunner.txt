@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: com.webStaurantStore.runners.CukesRunner
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 10.153 sec <<< FAILURE!
+User should see "Table", "Stainless" in every search result's title(Search results verification)  Time elapsed: 0.011 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'User should see "Table", "Stainless" in every search result's title' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("User should see {string}, {string} in every search result's title")
+public void user_should_see_in_every_search_result_s_title(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Search results verification  Time elapsed: 0.012 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'User should see "Table", "Stainless" in every search result's title' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("User should see {string}, {string} in every search result's title")
+public void user_should_see_in_every_search_result_s_title(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
