@@ -1,6 +1,6 @@
 Task:
 Your task is to automate the test case described below.  Once complete, upload your code to Github.com and
-send the project link back to jgabers@webstaurantstore.com.
+send the project link back to .....
 
 Preconditions:
 Runnable on: Windows 10
